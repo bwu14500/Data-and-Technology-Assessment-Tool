@@ -10,6 +10,7 @@ import Edit from "./components/edit";
 import Create from "./components/create";
 import Login from "./components/login";
 import SignUp from "./components/signup";
+import Survey from "./components/survey";
  
 const App = () => {
  return (
@@ -21,6 +22,8 @@ const App = () => {
        <Route path="/create" element={<Create />} />
        <Route exact path="/login" element={<Login />} />
        <Route exact path="/signup" element={<SignUp />} />
+       <Route exact path="/survey" element={<Survey />} />
+
      </Routes>
    </div>
  );
